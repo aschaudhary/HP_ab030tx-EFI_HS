@@ -1,64 +1,76 @@
-8:038  0:186  Found UEFI Acpi 2.0 RSDP at 9CFFD014
-8:038  0:000  Saving ACPI tables from RSDP 9CFFD014 to EFI\CLOVER\ACPI\origin ...
-8:038  0:000   9CFFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-8:038  0:000    (Xsdt: 9CFC9188, Rsdt: 9CFC90C4)
-8:038  0:000    9CFC9188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 236
-8:038  0:000    9CFC90C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 136
-8:038  0:000    Tables in Xsdt: 25
-8:038  0:000    0. 9CFEB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
-8:038  0:000        (Dsdt: 9CFD7000, Facs: 9CFB8000, XDsdt: 9CFD7000, XFacs: 0)
-8:038  0:000        9CFD7000: 'DSDT', '8096', Rev: 2, Len: 63867
-8:040  0:001        9CFB8000: 'FACS', Ver: 2, Len: 64
-8:040  0:000    1. 9CFFC000: 'UEFI', '8096', Rev: 1, Len: 566
-8:040  0:000    2. 9CFFB000: 'UEFI', '8096', Rev: 1, Len: 66
-8:040  0:000    3. 9CFF4000: 'SSDT', '8096', Rev: 1, Len: 27222
-8:040  0:000    4. 9CFF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
-8:040  0:000    5. 9CFF0000: 'SSDT', '8096', Rev: 2, Len: 8955
-8:040  0:000    6. 9CFEF000: 'ASF!', '8096', Rev: 32, Len: 165
-8:040  0:000    7. 9CFEE000: 'ASPT', '8096', Rev: 7, Len: 52
-8:040  0:000    8. 9CFED000: 'BOOT', '8096', Rev: 1, Len: 40
-8:040  0:000    9. 9CFEC000: 'DBGP', '8096', Rev: 1, Len: 52
-8:040  0:000    10. 9CFEA000: 'HPET', '8096', Rev: 1, Len: 56
-8:040  0:000    11. 9CFE9000: 'LPIT', '8096', Rev: 1, Len: 148
-8:040  0:000    12. 9CFE8000: 'APIC', '8096', Rev: 3, Len: 140
-8:040  0:000    13. 9CFE7000: 'MCFG', '8096', Rev: 1, Len: 60
-8:040  0:000    14. 9CFD5000: 'SSDT', '8096', Rev: 2, Len: 5329
-8:040  0:000    15. 9CFD4000: 'SSDT', '8096', Rev: 2, Len: 1337
-8:040  0:000    16. 9CFD3000: 'SSDT', '8096', Rev: 2, Len: 2932
-8:040  0:000    17. 9CFCD000: 'SSDT', '8096', Rev: 2, Len: 23209
-8:040  0:000    18. 9CFCC000: 'SSDT', '8096', Rev: 2, Len: 916
-8:040  0:000    19. 9CFCB000: 'PCCT', '8096', Rev: 5, Len: 110
-8:040  0:000    20. 9CFCA000: 'SSDT', '8096', Rev: 2, Len: 2756
-8:040  0:000    21. 9CFC5000: 'SSDT', '8096', Rev: 1, Len: 14049
-8:040  0:000    22. 9CFC4000: 'DMAR', '8096', Rev: 1, Len: 176
-8:040  0:000    23. 9CFC3000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
-8:040  0:000    24. 9CFC2000: 'BGRT', '8096', Rev: 1, Len: 56
-8:040  0:000    Tables in Rsdt: 25
-8:040  0:000    0. 9CFEB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
-8:040  0:000        (Dsdt: 9CFD7000, Facs: 9CFB8000, XDsdt: 9CFD7000, XFacs: 0)
-8:040  0:000        9CFD7000: 'DSDT', '8096', Rev: 2, Len: 63867
-8:041  0:001        9CFB8000: 'FACS', Ver: 2, Len: 64
-8:041  0:000    1. 9CFFC000: 'UEFI', '8096', Rev: 1, Len: 566
-8:041  0:000    2. 9CFFB000: 'UEFI', '8096', Rev: 1, Len: 66
-8:041  0:000    3. 9CFF4000: 'SSDT', '8096', Rev: 1, Len: 27222
-8:041  0:000    4. 9CFF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
-8:041  0:000    5. 9CFF0000: 'SSDT', '8096', Rev: 2, Len: 8955
-8:041  0:000    6. 9CFEF000: 'ASF!', '8096', Rev: 32, Len: 165
-8:041  0:000    7. 9CFEE000: 'ASPT', '8096', Rev: 7, Len: 52
-8:041  0:000    8. 9CFED000: 'BOOT', '8096', Rev: 1, Len: 40
-8:041  0:000    9. 9CFEC000: 'DBGP', '8096', Rev: 1, Len: 52
-8:041  0:000    10. 9CFEA000: 'HPET', '8096', Rev: 1, Len: 56
-8:041  0:000    11. 9CFE9000: 'LPIT', '8096', Rev: 1, Len: 148
-8:041  0:000    12. 9CFE8000: 'APIC', '8096', Rev: 3, Len: 140
-8:041  0:000    13. 9CFE7000: 'MCFG', '8096', Rev: 1, Len: 60
-8:041  0:000    14. 9CFD5000: 'SSDT', '8096', Rev: 2, Len: 5329
-8:041  0:000    15. 9CFD4000: 'SSDT', '8096', Rev: 2, Len: 1337
-8:041  0:000    16. 9CFD3000: 'SSDT', '8096', Rev: 2, Len: 2932
-8:041  0:000    17. 9CFCD000: 'SSDT', '8096', Rev: 2, Len: 23209
-8:041  0:000    18. 9CFCC000: 'SSDT', '8096', Rev: 2, Len: 916
-8:041  0:000    19. 9CFCB000: 'PCCT', '8096', Rev: 5, Len: 110
-8:041  0:000    20. 9CFCA000: 'SSDT', '8096', Rev: 2, Len: 2756
-8:041  0:000    21. 9CFC5000: 'SSDT', '8096', Rev: 1, Len: 14049
-8:041  0:000    22. 9CFC4000: 'DMAR', '8096', Rev: 1, Len: 176
-8:041  0:000    23. 9CFC3000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
-8:041  0:000    24. 9CFC2000: 'BGRT', '8096', Rev: 1, Len: 56
+6:797  0:295  Found UEFI Acpi 2.0 RSDP at 9CFFD014
+6:797  0:000  Saving ACPI tables from RSDP 9CFFD014 to EFI\CLOVER\ACPI\origin ...
+6:797  0:000   9CFFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+6:800  0:002    (Xsdt: 9CFC9188, Rsdt: 9CFC90C4)
+6:800  0:000    9CFC9188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 236 -> XSDT.aml
+6:803  0:002    9CFC90C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 136 -> RSDT.aml
+6:805  0:002    Tables in Xsdt: 25
+6:805  0:000    0. 9CFEB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> FACP.aml
+6:808  0:002        (Dsdt: 9CFD7000, Facs: 9CFB8000, XDsdt: 9CFD7000, XFacs: 0)
+6:808  0:000        9CFD7000: 'DSDT', '8096', Rev: 2, Len: 63867 -> DSDT.aml
+6:815  0:006        9CFB8000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+6:817  0:002    1. 9CFFC000: 'UEFI', '8096', Rev: 1, Len: 566 -> UEFI.aml
+6:821  0:004    2. 9CFFB000: 'UEFI', '8096', Rev: 1, Len: 66 -> UEFI.aml
+6:824  0:002    3. 9CFF4000: 'SSDT', '8096', Rev: 1, Len: 27222 -> SSDT-0-8096.aml
+6:829  0:004    4. 9CFF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85 -> MSDM.aml
+6:832  0:002    5. 9CFF0000: 'SSDT', '8096', Rev: 2, Len: 8955 -> SSDT-1-8096.aml
+6:837  0:004    6. 9CFEF000: 'ASF!', '8096', Rev: 32, Len: 165 -> ASF!.aml
+6:839  0:002    7. 9CFEE000: 'ASPT', '8096', Rev: 7, Len: 52 -> ASPT.aml
+6:843  0:003    8. 9CFED000: 'BOOT', '8096', Rev: 1, Len: 40 -> BOOT.aml
+6:846  0:002    9. 9CFEC000: 'DBGP', '8096', Rev: 1, Len: 52 -> DBGP.aml
+6:848  0:002    10. 9CFEA000: 'HPET', '8096', Rev: 1, Len: 56 -> HPET.aml
+6:851  0:002    11. 9CFE9000: 'LPIT', '8096', Rev: 1, Len: 148 -> LPIT.aml
+6:854  0:002    12. 9CFE8000: 'APIC', '8096', Rev: 3, Len: 140 -> APIC.aml
+6:857  0:003    13. 9CFE7000: 'MCFG', '8096', Rev: 1, Len: 60 -> MCFG.aml
+6:860  0:002    14. 9CFD5000: 'SSDT', '8096', Rev: 2, Len: 5329 -> SSDT-2-8096.aml
+6:863  0:002    15. 9CFD4000: 'SSDT', '8096', Rev: 2, Len: 1337 -> SSDT-3-8096.aml
+6:865  0:002    16. 9CFD3000: 'SSDT', '8096', Rev: 2, Len: 2932 -> SSDT-4-8096.aml (Found hidden SSDT 4 pcs)
+6:870  0:005        * 8F165A98: '', '
+', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+6:870  0:000        * 9CCDF618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D1 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x4_0-ApIst.aml
+6:873  0:002        * 9CCDE918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 B1 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x4_1-Cpu0Cst.aml
+6:876  0:002        * 9CCDDD98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 ED 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_2-ApCst.aml
+6:878  0:002  
+6:878  0:000    17. 9CFCD000: 'SSDT', '8096', Rev: 2, Len: 23209 -> SSDT-5-8096.aml
+6:882  0:003    18. 9CFCC000: 'SSDT', '8096', Rev: 2, Len: 916 -> SSDT-6-8096.aml
+6:885  0:003    19. 9CFCB000: 'PCCT', '8096', Rev: 5, Len: 110 -> PCCT.aml
+6:888  0:002    20. 9CFCA000: 'SSDT', '8096', Rev: 2, Len: 2756 -> SSDT-7-8096.aml
+6:891  0:002    21. 9CFC5000: 'SSDT', '8096', Rev: 1, Len: 14049 -> SSDT-8-8096.aml
+6:893  0:002    22. 9CFC4000: 'DMAR', '8096', Rev: 1, Len: 176 -> DMAR.aml
+6:896  0:002    23. 9CFC3000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+6:899  0:002    24. 9CFC2000: 'BGRT', '8096', Rev: 1, Len: 56 -> BGRT.aml
+6:903  0:004    Tables in Rsdt: 25
+6:903  0:000    0. 9CFEB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> RSDT-FACP.aml
+6:906  0:002        (Dsdt: 9CFD7000, Facs: 9CFB8000, XDsdt: 9CFD7000, XFacs: 0)
+6:906  0:000        9CFD7000: 'DSDT', '8096', Rev: 2, Len: 63867 -> RSDT-DSDT.aml
+6:912  0:006        9CFB8000: 'FACS', Ver: 2, Len: 64 -> RSDT-FACS.aml
+6:915  0:003    1. 9CFFC000: 'UEFI', '8096', Rev: 1, Len: 566 -> RSDT-UEFI.aml
+6:918  0:002    2. 9CFFB000: 'UEFI', '8096', Rev: 1, Len: 66 -> RSDT-UEFI.aml
+6:920  0:002    3. 9CFF4000: 'SSDT', '8096', Rev: 1, Len: 27222 -> RSDT-SSDT-9-8096.aml
+6:923  0:003    4. 9CFF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85 -> RSDT-MSDM.aml
+6:926  0:002    5. 9CFF0000: 'SSDT', '8096', Rev: 2, Len: 8955 -> RSDT-SSDT-10-8096.aml
+6:929  0:003    6. 9CFEF000: 'ASF!', '8096', Rev: 32, Len: 165 -> RSDT-ASF!.aml
+6:932  0:002    7. 9CFEE000: 'ASPT', '8096', Rev: 7, Len: 52 -> RSDT-ASPT.aml
+6:937  0:004    8. 9CFED000: 'BOOT', '8096', Rev: 1, Len: 40 -> RSDT-BOOT.aml
+6:940  0:002    9. 9CFEC000: 'DBGP', '8096', Rev: 1, Len: 52 -> RSDT-DBGP.aml
+6:942  0:002    10. 9CFEA000: 'HPET', '8096', Rev: 1, Len: 56 -> RSDT-HPET.aml
+6:945  0:002    11. 9CFE9000: 'LPIT', '8096', Rev: 1, Len: 148 -> RSDT-LPIT.aml
+6:948  0:002    12. 9CFE8000: 'APIC', '8096', Rev: 3, Len: 140 -> RSDT-APIC.aml
+6:950  0:002    13. 9CFE7000: 'MCFG', '8096', Rev: 1, Len: 60 -> RSDT-MCFG.aml
+6:953  0:002    14. 9CFD5000: 'SSDT', '8096', Rev: 2, Len: 5329 -> RSDT-SSDT-11-8096.aml
+6:957  0:004    15. 9CFD4000: 'SSDT', '8096', Rev: 2, Len: 1337 -> RSDT-SSDT-12-8096.aml
+6:961  0:003    16. 9CFD3000: 'SSDT', '8096', Rev: 2, Len: 2932 -> RSDT-SSDT-13-8096.aml (Found hidden SSDT 4 pcs)
+6:963  0:002        * 8F165A98: '', '
+', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+6:963  0:000        * 9CCDF618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D1 50 6D 52 65 66 00 Internal length = 1450 -> RSDT-SSDT-x13_0-ApIst.aml
+6:966  0:002        * 9CCDE918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 B1 50 6D 52 65 66 00 Internal length = 979 -> RSDT-SSDT-x13_1-Cpu0Cst.aml
+6:968  0:002        * 9CCDDD98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 ED 50 6D 52 65 66 00 Internal length = 281 -> RSDT-SSDT-x13_2-ApCst.aml
+6:972  0:003  
+6:972  0:000    17. 9CFCD000: 'SSDT', '8096', Rev: 2, Len: 23209 -> RSDT-SSDT-14-8096.aml
+6:976  0:003    18. 9CFCC000: 'SSDT', '8096', Rev: 2, Len: 916
+6:976  0:000    19. 9CFCB000: 'PCCT', '8096', Rev: 5, Len: 110
+6:976  0:000    20. 9CFCA000: 'SSDT', '8096', Rev: 2, Len: 2756
+6:976  0:000    21. 9CFC5000: 'SSDT', '8096', Rev: 1, Len: 14049
+6:976  0:000    22. 9CFC4000: 'DMAR', '8096', Rev: 1, Len: 176
+6:976  0:000    23. 9CFC3000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:976  0:000    24. 9CFC2000: 'BGRT', '8096', Rev: 1, Len: 56
